@@ -2,7 +2,7 @@ var expect = require('chai').expect
   , time   = require('./')
 
 describe('time', function() {
-  it('should convert object time to array', function(done) {
+  it('should call fn sometime in future', function(done) {
     var result = false
       , fn = function(){ result = true }
 
